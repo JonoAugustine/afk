@@ -1,0 +1,36 @@
+$color-bg: #333333;
+$color-text: hsl(0, 0%, 90%);
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: $color-bg;
+  color: $color-text;
+}
+
+header {
+  width: 100%;
+
+  h1 {
+    margin: 1rem auto;
+    text-align: center;
+  }
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  color: green;
+
+  &[afk="false"] {
+    color: red;
+  }
+}

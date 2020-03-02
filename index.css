@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-color: #333333;
+  color: #e6e6e6;
+}
+
+header {
+  width: 100%;
+}
+
+header h1 {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+main {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  color: green;
+}
+
+main[afk="false"] {
+  color: red;
+}
+/*# sourceMappingURL=index.css.map */
